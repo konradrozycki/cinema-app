@@ -1,0 +1,29 @@
+.profileWrapper {
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userInfoWrapper {
+    padding: 10px;
+}
+
+.reservationWrapper {
+    padding: 10px;
+    align-self: center;
+    width: 30%;
+}
+
+.reservationWrapper h3 {
+    margin-bottom: 150px;
+}
+
+.reservation {
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.profileEmail {
+    padding-left: 20px;
+}

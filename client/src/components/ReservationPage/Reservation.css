@@ -1,0 +1,15 @@
+.reservation-info {
+    background-color: rgb(217, 179, 87);
+    margin: 0 auto;
+    text-align: center;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-btn {
+    margin: 25px auto;
+    text-decoration: none;
+}
