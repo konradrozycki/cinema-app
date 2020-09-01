@@ -108,3 +108,6 @@ dist
 
 #OLD_BACKEND
 OLD_BACKEND
+
+#MongoDB URI
+configuration
