@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Prices.css";
 
-console.log("its working!!");
+// console.log("its working!!");
 
 class Prices extends Component {
     render() {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Contact.css";
 
-console.log("its working");
+// console.log("its working");
 
 class Contact extends Component {
     render() {

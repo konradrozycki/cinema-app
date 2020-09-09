@@ -1,15 +1,16 @@
+import React, { Component } from "react";
+import Axios from "axios";
 import { Modal } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import React, { Component } from "react";
 import "./auth.css";
-import Axios from "axios";
+
 export default class auth extends Component {
     state = {
         loading: false,
         toggle_Loginin_Register: true,
-        email: null,
-        username: null,
-        password: null,
+        email: "",
+        username: "",
+        password: "",
     };
     onChange = (e) => {
         this.setState({ [e.target.name]: e.target.value });
@@ -116,7 +117,7 @@ export default class auth extends Component {
                             <div className="card-footer">
                                 <div className="d-flex justify-content-center links text-dark">
                                     Don't have an account?
-                                    <a
+                                    <button
                                         className="text-dark"
                                         href="#"
                                         onClick={(e) => {
@@ -129,12 +130,12 @@ export default class auth extends Component {
                                         }}
                                     >
                                         Sign Up
-                                    </a>
+                                    </button>
                                 </div>
                                 <div className="d-flex justify-content-center text-dark">
-                                    <a className="text-dark">
+                                    <button className="text-dark">
                                         Forgot your password?
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -195,7 +196,7 @@ export default class auth extends Component {
                             </div>
                             <div className="card-footer">
                                 already have an account?
-                                <a
+                                <button
                                     href=""
                                     onClick={(e) => {
                                         e.preventDefault();
@@ -207,7 +208,7 @@ export default class auth extends Component {
                                     className="d-flex justify-content-center links text-dark"
                                 >
                                     Sign in
-                                </a>
+                                </button>
                             </div>
                         </div>
                     )}
