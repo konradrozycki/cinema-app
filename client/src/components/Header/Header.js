@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./Header.css";
 import Auth from "../Auth/auth";
 import Axios from "axios";
-import Tickets from "../ReservationPage/Tickets";
 
 class Header extends Component {
     state = { loading: false };
@@ -11,7 +10,10 @@ class Header extends Component {
             <div className="header-info">
                 {this.props.user ? (
                     <a className="profileLink" href="/profile">
-                        <img src="https://i.ibb.co/GWWYJtL/profile.png"></img>
+                        <img
+                            src="https://i.ibb.co/GWWYJtL/profile.png"
+                            alt="profile"
+                        ></img>
                     </a>
                 ) : null}
                 <a className="header-link" href="/">
