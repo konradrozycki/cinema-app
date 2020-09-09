@@ -40,6 +40,7 @@ class Contact extends Component {
                     <img
                         src="https://i.ibb.co/tqXS6xw/mail-1.png"
                         className="emailIcon"
+                        alt="email"
                     ></img>
                     <a href="mailto: info@nfcinema.com">info@nfcinema.com</a>
                     <br />
@@ -47,6 +48,7 @@ class Contact extends Component {
                     <img
                         src="https://i.ibb.co/PCVK1GW/location.png"
                         className="locationIcon"
+                        alt="location"
                     ></img>
                     <a href="https://goo.gl/maps/2A2N9mwt37zGDpk66">
                         Show address on map
