@@ -82,7 +82,7 @@ export default class auth extends Component {
                                             name="email"
                                             className="form-control"
                                             value={this.state.email}
-                                            required="true"
+                                            required={true}
                                             onChange={this.onChange}
                                         />
                                     </div>
@@ -93,7 +93,7 @@ export default class auth extends Component {
                                             name="password"
                                             onChange={this.onChange}
                                             value={this.state.password}
-                                            required="true"
+                                            required={true}
                                         />
                                     </div>
 
@@ -152,7 +152,7 @@ export default class auth extends Component {
                                             name="email"
                                             className="form-control"
                                             value={this.state.email}
-                                            required="true"
+                                            required={true}
                                             onChange={this.onChange}
                                         />
                                     </div>
@@ -162,7 +162,7 @@ export default class auth extends Component {
                                             name="username"
                                             className="form-control"
                                             value={this.state.username}
-                                            required="true"
+                                            required={true}
                                             onChange={this.onChange}
                                         />
                                     </div>
@@ -173,7 +173,7 @@ export default class auth extends Component {
                                             name="password"
                                             onChange={this.onChange}
                                             value={this.state.password}
-                                            required="true"
+                                            required={true}
                                         />
                                     </div>
 
