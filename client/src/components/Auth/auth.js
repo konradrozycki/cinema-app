@@ -195,7 +195,7 @@ export default class auth extends Component {
                                 </form>
                             </div>
                             <div className="card-footer">
-                                already have an account?
+                                <p>already have an account?</p>
                                 <button
                                     href=""
                                     onClick={(e) => {

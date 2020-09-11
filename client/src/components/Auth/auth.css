@@ -21,6 +21,13 @@ body {
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
+.card-footer p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
 .social_icon span {
     font-size: 60px;
     margin-left: 10px;
