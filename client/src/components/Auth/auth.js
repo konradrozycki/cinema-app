@@ -115,8 +115,8 @@ export default class auth extends Component {
                                 </form>
                             </div>
                             <div className="card-footer">
+                                <p>Don't have an account?</p>
                                 <div className="d-flex justify-content-center links text-dark">
-                                    Don't have an account?
                                     <button
                                         className="text-dark"
                                         href="#"
