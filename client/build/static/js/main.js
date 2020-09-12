@@ -277,19 +277,10 @@
                                         return r.a.createElement(
                                             "div",
                                             { className: "header-info" },
-                                            r.a.createElement(
-                                                "a",
-                                                {
-                                                    className: "header-link",
-                                                    href: "/",
-                                                },
-                                                r.a.createElement("img", {
-                                                    className: "header-image",
-                                                    src:
-                                                        "https://www.themoviedb.org/assets/2/v4/logos/primary-green-d70eebe18a5eb5b166d5c1ef0796715b8d1a2cbc698f96d311d62f894ae87085.svg",
-                                                    alt: "tmdb logo",
-                                                })
-                                            )
+                                            r.a.createElement("a", {
+                                                className: "header-link",
+                                                href: "/",
+                                            })
                                         );
                                     },
                                 },
