@@ -126,6 +126,16 @@ input:focus {
     cursor: pointer;
 }
 
+.close-button {
+    font-size: 150%;
+    border: none;
+    background: none;
+    color: #6480a1;
+    cursor: pointer;
+    padding-top: 1rem;
+    padding-right: 2rem;
+}
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
