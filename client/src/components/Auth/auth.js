@@ -205,7 +205,7 @@ export default class auth extends Component {
                                                 .toggle_Loginin_Register,
                                         });
                                     }}
-                                    className="d-flex justify-content-center links text-dark"
+                                    className="text-login"
                                 >
                                     Login
                                 </button>
