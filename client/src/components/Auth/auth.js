@@ -72,7 +72,7 @@ export default class auth extends Component {
                     {this.state.toggle_Loginin_Register ? (
                         <div className="card">
                             <div className="card-header">
-                                <h3>Sign In</h3>
+                                <h3>Log In</h3>
                             </div>
                             <div className="card-body">
                                 <form>
@@ -207,7 +207,7 @@ export default class auth extends Component {
                                     }}
                                     className="d-flex justify-content-center links text-dark"
                                 >
-                                    Sign in
+                                    Login
                                 </button>
                             </div>
                         </div>
