@@ -4,22 +4,18 @@
     align-items: center;
     justify-content: center;
 }
-
 .header-image {
     padding: 10px;
     width: 460px;
 }
-
 .header-title {
     color: #fff;
     margin: 0 auto;
 }
-
 .header-link {
     margin: 0 auto;
     text-decoration: none;
 }
-
 .profileLink {
     text-decoration: none;
     color: white;
