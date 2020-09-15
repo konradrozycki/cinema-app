@@ -15,11 +15,11 @@
     padding: 8px;
     border-radius: 20px;
 }
-
 .poster:hover {
     transform: scale(1.05);
+    transition-duration: 2s;
+    transition-delay: 5s;
 }
-
 .reserve-tickets-btn {
     height: 50px;
     background: rgb(217, 179, 87);
@@ -29,7 +29,6 @@
     border-radius: 32px;
     padding: 8px;
 }
-
 .reserve-tickets-btn:hover {
     background: rgb(181, 130, 7);
 }
