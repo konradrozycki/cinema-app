@@ -80,6 +80,7 @@ export default class auth extends Component {
                                         <input
                                             type="email"
                                             name="email"
+                                            placeholder="email adress"
                                             className="form-control"
                                             value={this.state.email}
                                             required={true}
@@ -91,6 +92,7 @@ export default class auth extends Component {
                                             type="password"
                                             className="form-control"
                                             name="password"
+                                            placeholder="password"
                                             onChange={this.onChange}
                                             value={this.state.password}
                                             required={true}
@@ -145,11 +147,12 @@ export default class auth extends Component {
                                 <h3>Register</h3>
                             </div>
                             <div className="card-body">
-                                <form>
+                                <form autocomplete="off">
                                     <div className="input-group form-group">
                                         <input
                                             type="email"
                                             name="email"
+                                            placeholder="email adress"
                                             className="form-control"
                                             value={this.state.email}
                                             required={true}
@@ -160,6 +163,7 @@ export default class auth extends Component {
                                         <input
                                             type="text"
                                             name="username"
+                                            placeholder="username"
                                             className="form-control"
                                             value={this.state.username}
                                             required={true}
@@ -171,6 +175,7 @@ export default class auth extends Component {
                                             type="password"
                                             className="form-control"
                                             name="password"
+                                            placeholder="password"
                                             onChange={this.onChange}
                                             value={this.state.password}
                                             required={true}
