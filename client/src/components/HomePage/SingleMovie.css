@@ -2,32 +2,26 @@
     padding: 8px;
     margin: 8px;
 }
-
 .movie-title {
     text-align: center;
     font-size: 24px;
     margin-top: 15px;
     margin-bottom: 20px;
 }
-
 .movie-overview {
     margin-top: 1rem;
 }
-
 .about-movie {
     display: flex;
 }
-
 .poster {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
 }
-
 .poster:hover {
     transform: scale(1.05);
 }
-
 .reserve-tickets-btn {
     height: 50px;
     background: rgb(217, 179, 87);
@@ -38,7 +32,6 @@
     padding: 8px;
     margin-top: 10px;
 }
-
 .reserve-tickets-btn:hover {
     background: rgb(181, 130, 7);
 }
