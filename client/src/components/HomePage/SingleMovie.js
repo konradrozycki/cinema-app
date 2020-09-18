@@ -27,6 +27,7 @@ class SingleMovie extends Component {
                             The avarage note of the film is:{" "}
                             {this.props.movieInfo.vote_average}
                         </h5>
+                        <div className="movie-trailer"></div>
                         <div>
                             <Link
                                 to={`/first-step?movie=${this.props.movieInfo.original_title}`}
