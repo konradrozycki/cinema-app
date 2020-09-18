@@ -147,7 +147,7 @@ export default class auth extends Component {
                                 <h3>Register</h3>
                             </div>
                             <div className="card-body">
-                                <form autocomplete="off">
+                                <form autoComplete="off">
                                     <div className="input-group form-group">
                                         <input
                                             type="email"
