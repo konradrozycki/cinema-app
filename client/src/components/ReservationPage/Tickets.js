@@ -166,7 +166,6 @@ class Tickets extends Component {
                         <div className="seans-days">
                             <div className="radio-toolbar">
                                 <h1>Day</h1>
-
                                 <div className="radio">
                                     <input
                                         type="radio"
