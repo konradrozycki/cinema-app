@@ -55,13 +55,11 @@
         margin: 8px auto;
     }
 }
-
 .listOfContents {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-
 .listOfContents a {
     color: white;
     display: inline-block;
