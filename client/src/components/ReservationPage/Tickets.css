@@ -143,11 +143,9 @@ a {
 .reservation-btn:hover {
     background: rgb(181, 130, 7);
 }
-
 .back-btn {
     background: #ccc;
 }
-
 .seatsLegend {
     display: flex;
     flex-direction: row;
@@ -155,14 +153,12 @@ a {
     align-content: space-between;
     margin-top: 40px;
 }
-
 .free {
     width: 30px;
     height: 30px;
     margin-right: 15px;
     background-color: rgb(217, 179, 87);
 }
-
 .occupied {
     width: 30px;
     height: 30px;
@@ -170,7 +166,6 @@ a {
     margin-right: 15px;
     background-color: red;
 }
-
 .selected {
     width: 30px;
     height: 30px;
