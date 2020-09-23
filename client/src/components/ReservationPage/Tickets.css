@@ -60,17 +60,14 @@ a {
     font-size: 18px;
     text-align: center;
 }
-
 .hall {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-
 .seats {
     width: 100%;
 }
-
 .screen {
     width: 60%;
     background-color: #fff;
@@ -78,7 +75,6 @@ a {
     margin: 16px auto;
     margin-bottom: 40px;
 }
-
 .seat,
 .seat.blocked,
 .seat.marked {
@@ -91,26 +87,21 @@ a {
     justify-content: center;
     align-items: center;
 }
-
 .seat.blocked {
     background: red;
 }
-
 .seat.marked {
     background: lightskyblue;
 }
-
 .seat.blocked:hover {
     color: #000;
     cursor: default;
 }
-
 .seat:hover {
     background: gray;
     color: #f0fff0;
     cursor: pointer;
 }
-
 .row-name {
     position: relative;
     width: 30px;
@@ -119,7 +110,6 @@ a {
     text-align: center;
     color: white;
 }
-
 .reservation-btn,
 .back-btn {
     display: flex;
@@ -135,11 +125,9 @@ a {
     justify-content: center;
     cursor: pointer;
 }
-
 .back-btn:hover {
     background: grey;
 }
-
 .reservation-btn:hover {
     background: rgb(181, 130, 7);
 }
