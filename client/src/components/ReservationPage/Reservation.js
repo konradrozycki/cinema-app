@@ -10,7 +10,12 @@ class Reservation extends Component {
                     <h1>
                         Thank you for choosing our cinema. Have a a nice time!
                     </h1>
-                    {/* <p>Your seans data: date: {this.props.date}, hour: {this.props.hour}, tickets: {this.props.tickets}.</p> */}
+                    {
+                        <p>
+                            Your seans data: date: {this.props.date}, hour:{" "}
+                            {this.props.hour}, tickets: {this.props.tickets}.
+                        </p>
+                    }
                     <Link className="btn-link" to={`/`}>
                         <button className="back-btn" id="movies">
                             Home page
