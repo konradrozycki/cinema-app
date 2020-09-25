@@ -50,22 +50,18 @@ passport.use(
             try {
                 // Find the user given the email
                 const user = await User.findOne({ email: email });
-
                 // If not, handle it
                 if (!user) {
                     return done(null, false, { message: "Incorrect email." });
                 }
-
                 // Check if the password is correct
                 const isMatch = await user.isValidPassword(password);
-
                 // If not, handle it
                 if (!isMatch) {
                     return done(null, false, {
                         message: "Incorrect password.",
                     });
                 }
-
                 // Otherwise, return the user
                 done(null, user);
             } catch (error) {
