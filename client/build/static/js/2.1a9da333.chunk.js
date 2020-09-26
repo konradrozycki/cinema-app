@@ -1,4 +1,3 @@
-/*! For license information please see 2.1a9da333.chunk.js.LICENSE */
 (this["webpackJsonpcinema-app"] = this["webpackJsonpcinema-app"] || []).push([
     [2],
     [
