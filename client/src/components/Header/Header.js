@@ -19,7 +19,7 @@ class Header extends Component {
                 <a className="header-link" href="/">
                     <img
                         className="header-image"
-                        src="https://i.ibb.co/jDB08y1/logo.png"
+                        src="https://i.ibb.co/T4HzyJ9/logo.png"
                         alt="cinema logo"
                     ></img>
                 </a>
