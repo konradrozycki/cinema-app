@@ -139,6 +139,7 @@ class Tickets extends Component {
                 console.log(res.data.reservations);
                 let all = res.data.reservations.map((r) => r.seats);
                 let blocked = [].concat.apply([], all);
+                // eslint-disable-next-line
                 blocked.map((i) => {
                     document.getElementById(i).classList.add("blocked");
                 });
