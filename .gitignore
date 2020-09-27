@@ -5,6 +5,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+serverlogs.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -40,6 +41,8 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+package-lock.json
+package.json
 
 # TypeScript v1 declaration files
 typings/
@@ -114,3 +117,5 @@ OLD_BACKEND
 
 #MongoDB URI
 configuration
+
+asset-manifest.json
