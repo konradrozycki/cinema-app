@@ -1,6 +1,5 @@
 <h1>Cinema-app</h1>
 
-<h2>Overview</h2>
 <p>It's an cinema-app containing movies read from the moviedb api. The application allows you to create reservations for a specific screening and the ability to book tickets. You can also check your reservations and cancel them.</p>
 
 ## Available Scripts
